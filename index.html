@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>To-do list app</title>
-        <link href="css/style.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
         <script defer src="script.js"></script>
     </head>
     <body>
@@ -13,10 +13,17 @@
             <h1>To-Do list</h1>  
             <form>
                 <h2> What needs to be done ?</h2>
-                <input type="text" name="to-do" value="">
-                <button type="button">add</button> 
+                <input type="text" name="to-do" value="" class="inputTask">
+                <button type="button" class="addTask">add</button> 
             </form>
-            <ul class="list">
+            <ul class="mainList">
+                <li type="checkbox">
+                    <div>  
+                        <p>this is just a test.</p>
+                        <button type="">edit</button> 
+                        <button type="">delete</button> 
+                    </div>
+                </li>
             </ul>
         </div>
     </body>
