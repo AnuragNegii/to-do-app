@@ -1,30 +1,25 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>To-do list app</title>
-        <link href="style.css" rel="stylesheet">
-        <script defer src="script.js"></script>
-    </head>
-    <body>
-        <div>
-            <h1>To-Do list</h1>  
-            <form>
-                <h2> What needs to be done ?</h2>
-                <input type="text" name="to-do" value="" class="inputTask">
-                <button type="button" class="addTask">add</button> 
-            </form>
-            <ul class="mainList">
-                <li type="checkbox">
-                    <div>  
-                        <p>this is just a test.</p>
-                        <button type="">edit</button> 
-                        <button type="">delete</button> 
-                    </div>
-                </li>
-            </ul>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-do list app</title>
+    <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="mainDiv">
+      <h1>To-Do list</h1>  
+      <h3> What needs to be done ?</h3>
+      <hr class="divider">
+      <div class="inputContainer">
+      <input type="text" name="to-do" value="" class="inputTask" autocomplete="off">
+      <button type="button" class="addTask">add</button> 
         </div>
-    </body>
+      <hr class="divider">
+      <ul class="mainList">
+      </ul>
+    </div>
+  </body>
 </html>
